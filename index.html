@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit Calculator</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="calulate.js"></script>
+</head>
+<body>
+    <h1>Fixed Deposit Calculator</h1>
+    <form action="">
+        <label for="amount">Principal Amount:</label>
+        <input type="number" step="any" name="amount" id="amount" required>
+        <label for="interest">Annual interest:</label>
+        <input type="number" step=any name="interest" id="interest" required>
+        <label for="start">Start Date:</label>
+        <input type="date" name="start" id="start" required>
+        <label for="end">End Date:</label>
+        <input type="date" name="end" id="end" required>
+        <button onclick="calculation()" type="button">Calculate</button>
+        <p id="output"></p>
+    </form>
+</body>
+</html>
